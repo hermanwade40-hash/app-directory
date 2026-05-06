@@ -11,15 +11,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: { default: 'ForumSpace', template: '%s | ForumSpace' },
-  metadataBase: new URL('https://forumspace.example.com'),
+  title: { default: 'Digi PO Tracker', template: '%s | Digi PO Tracker' },
+  metadataBase: new URL('https://digi-po-tracker.example.com'),
   description:
-    'A modern forum website for categories, threads, replies, moderation, and community activity.',
+    'A purchase order finance dashboard for importing, tracking, exporting, and acknowledging vendor POs.',
   openGraph: {
-    title: 'ForumSpace',
+    title: 'Digi PO Tracker',
     description:
-      'A modern forum website for categories, threads, replies, moderation, and community activity.',
-    images: [`/api/og?title=ForumSpace`],
+      'A purchase order finance dashboard for importing, tracking, exporting, and acknowledging vendor POs.',
+    images: [`/api/og?title=Digi%20PO%20Tracker`],
   },
   twitter: { card: 'summary_large_image' },
 };
